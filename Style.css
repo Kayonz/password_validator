@@ -1,0 +1,44 @@
+body{
+    zoom: 2;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input{
+    margin-right: 20px;
+    border: 2px solid #ddd;
+    border-radius: 50px;
+    background-color: black;
+    color: #FFF;
+}
+
+#campo{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    width: 50%;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    border-radius: 50px;
+    background-color: #ddd;
+    padding: 10px 20px;
+    transition: transform 0.2s ease;
+}
+button:active{
+    transform: scale(0.9);
+}
+button:hover{
+    transform: scale(1.1);
+    color: black;
+}
+
+
+#resultado{
+    margin-right: 40px;
+    font-size: 25px;
+}
